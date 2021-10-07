@@ -1,19 +1,22 @@
 body {
-  background-image: url(../media/img/Worlds_2021.jpg);
+  background-image: url(../media/img/images.png);
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #af319a04; }
+  background-color: #af319a04;
+}
 
 li {
-  float: left; }
+  float: left;
+}
 
 li a {
   display: block;
@@ -21,9 +24,10 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 50px; }
+  font-size: 50px;
+}
 
 li a:hover {
-  background-color: rgba(17, 0, 255, 0.644); }
-
+  background-color: rgba(17, 0, 255, 0.644);
+}
 /*# sourceMappingURL=style.css.map */

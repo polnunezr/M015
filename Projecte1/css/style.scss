@@ -1,5 +1,7 @@
 $primary-color: rgba(17, 0, 255, 0.644);
-$black-color : #000000;
+$black-color : #af319a04;
+$standard_widht:20%;
+$standard_heigth:20%;
 body {
     background-image: url(../media/img/Worlds_2021.jpg);
     width: 100%;
@@ -13,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #af319a04;
   }
   
   li {

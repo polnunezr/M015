@@ -1,33 +1,59 @@
 body {
-  background-image: url(../media/img/images.png);
-  width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(../media/img/images.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #af319a04;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
 }
 
 li {
-  float: left;
+    float: left;
+    background-color: #000000;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 50px;
+    display: block;
+    color: rgb(247, 244, 244);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
 }
 
 li a:hover {
-  background-color: rgba(17, 0, 255, 0.644);
+    background-color: rgba(17, 0, 255, 0.644);
 }
+
+
 /*# sourceMappingURL=style.css.map */
+
+.mercedes {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.redbull {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.ferrari {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row {
+    box-sizing: border-box;
+    display: flex;
+}
